@@ -1,24 +1,17 @@
-<html>
-<head>
-<title>GPS</title>
-<style>
-body{
-	background-image: url("first.jpg");
-}
-#btn{
-   
-}
-</style>
-</head>
-<body>
-<div style="color:red;padding:40px;font-size:36px">
-<center><b>BlueMix GPS</center>
+@extends('layouts.app')
+
+@section('content')
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <div class="panel panel-default">
+                <div class="panel-heading">Dashboard</div>
+
+                <div class="panel-body">
+                    You are logged in!
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-<center>
-	<input type="text" placeholder="enter your name"></input>
-	<label id="btn"><a href = "chat1.blade.php">Next</a><label>
-</center>
-</body>
-</html>
-
-
+@endsection
