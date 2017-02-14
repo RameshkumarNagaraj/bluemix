@@ -117,11 +117,11 @@ body{
 		<div class="chatlogs">
 			<div id="m" class="chat self">
 				<div class="user-photo"><img src="views/paul.jpg"></div>
-				<p class="chat-message">hii</p>
+				<p class="chat-message">where am i?</p>
 			</div>
 			<div class="chat bot">
 				<div class="user-photo"><img src="views/paul.jpg"></div>
-				<p class="chat-message">hii</p>
+				<p class="chat-message">Your at....</p>
 			</div>
 		</div>
 				<div class="chat-form">
